@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+  <link href="{{url_for('static',filename='styles.css' )}}" rel="stylesheet" type="text/css">
+  <script src="{{url_for('static', filename='script.js')}}" defer></script>
+</head>
+<body>
+
+  <div class="container">
+
+  <aside class="navbar">
+
+  <a>Dashboard</a>
+  <a>Minhas Tarefas</a>
+  <a>Configuracoes</a>
+  <a>Calendario</a>
+
+  
+  </aside>
+
+  <button class="b_task" onclick="addTask()" >Criar Tarefa</button>
+  
+
+  </div>
+
+  
+  <div class="conteudo">
+  <h1 id="app">Minhas Tarefas</h1>
+  <input type="text" id="input"  placeholder="Digite sua tarefa">
+
+
+  </div>
+
+  <div class="lista"></div>
+</body>
+</html>

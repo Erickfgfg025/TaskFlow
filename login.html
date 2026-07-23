@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Tarefas</title>
+    <link href="{{url_for('static', filename='styles.css')}}" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="card">
+    <h1>A Pagina de Login</h1>
+    <br>
+    <form class="form" action="{{url_for('login')}}" method="POST">
+    <input type="text" name="Usuario" placeholder="Digite seu usuario" required>
+    <br>
+    <input type="password" name="Senha" placeholder="Digite sua senha" required>
+    <br>
+    <input type="submit" value="Entrar" class="b_entrar">
+    <input type="submit" value="Cadastrar" class="b_cadastro">
+
+
+    </form>
+    </div>
+
+</body>
+</html>
