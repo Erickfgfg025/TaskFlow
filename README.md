@@ -1,4 +1,4 @@
-# 🗓️ Sistema de Agendamento de Tarefas
+# 🗓️ TaskFlow
 
 Um sistema simples e eficiente para gerenciamento e organização de tarefas diárias, permitindo o agendamento, controle e acompanhamento de atividades em um único lugar.
 
